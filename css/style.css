@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'poppins'. sans-serif;
+}
+:root
+{
+  --black:#333;
+  --white:#fff;
+}
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background: var(--white);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0,0,0.05, );
+}
+.brand-gradient {
+  background: #00ccff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00ccff, #00a347);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00ccff, #00a347);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.vr {
+  color: white;
+}
+.banner-holder, .main-page-header {
+  background-image: url(../images/bg/pexels-kelly-4171927.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.custom-nav {
+  backdrop-filter: blur(8px);
+}
+
+page-bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/bg/pexels-evie-shaffer-4060937.jpg) center no-repeat;
+  background-size: cover;
+
+
+
+
+
+
+
+
+
+
+
+
